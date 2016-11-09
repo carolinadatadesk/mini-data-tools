@@ -2,11 +2,8 @@
 
 import csv
 
-#without file extension
-file_name = "[NAME OF FILE]"
-
-txt_file = r + '"' + file_name + '.txt"'
-csv_file = r + '"' + file_name + '.csv"'
+txt_file = r"[TEXT FILE NAME].txt"
+csv_file = r"[CSV FILE NAME].csv"
 
 # use 'with' if the program isn't going to immediately terminate
 # so you don't leave files open
